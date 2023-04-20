@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9a660"
+    android:orientation="vertical"
+    tools:context=".mcqs">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Wellcome"
+        android:textAlignment="center"
+        android:textColor="#964B00"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/mcqs"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#964B00"
+        android:text="MCQs Quiz"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFA500"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/truefalse"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#964B00"
+        android:text="True/False Quiz"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFA500"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#964B00"
+        android:text="Rate my Application"
+        android:textAllCaps="false"
+        android:textColor="#FFA500"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
